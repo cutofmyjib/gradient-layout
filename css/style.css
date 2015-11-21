@@ -21,7 +21,7 @@ body {
 
 .heading-icon-container {
   position: absolute;
-  top: -3px;
+  top: -.2em;
   font-size: 4.35em;
   text-align: center;
   padding-left: .25em;
@@ -33,8 +33,9 @@ body {
 
 .heading-h1 {
   font-size: 1em;
-  line-height: 1em;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-body {
@@ -73,9 +74,11 @@ body {
 .logout {
   background: #E226FF;
   text-align: center;
+  padding: 1em;
 }
 
 .logout h1 {
+  font-size: 1em;
   margin: 0;
   padding: 0;
 }
