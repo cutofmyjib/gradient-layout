@@ -10,24 +10,30 @@ body {
 }
 
 .heading-container {
+  position: relative;
   display: flex;
   flex-direction: row;
+  align-items: center;
   background: #05C5FF;
   margin: 0;
-  padding: 0;
+  padding: 1em;
 }
 
 .heading-icon-container {
+  position: absolute;
+  top: -3px;
   font-size: 4.35em;
   text-align: center;
   padding-left: .25em;
 }
 
 .heading-h1-container {
-  flex-grow: 2;
+  margin: auto;
 }
 
 .heading-h1 {
+  font-size: 1em;
+  line-height: 1em;
   text-align: center;
 }
 
@@ -54,11 +60,13 @@ body {
 
 .navigation-options li {
   width: 50%;
-  margin: auto;
+  margin: 1em auto;
+  letter-spacing: 1px;
+
 }
 
 .navigation-options i {
-  font-size: 3em;
+  font-size: 2.5em;
   display: block;
 }
 
