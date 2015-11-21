@@ -1,0 +1,73 @@
+/** {
+  border: 1px solid yellow;
+}*/
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 500px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  background: #05C5FF;
+  margin: 0;
+  padding: 0;
+}
+
+.heading-icon-container {
+  font-size: 4.35em;
+  text-align: center;
+  padding-left: .25em;
+}
+
+.heading-h1-container {
+  flex-grow: 2;
+}
+
+.heading-h1 {
+  text-align: center;
+}
+
+.navigation-body {
+  background: rgba(5,197,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(5,197,255,1) 0%, rgba(86,139,255,1) 33%, rgba(226,38,255,1) 90%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(5,197,255,1)), color-stop(33%, rgba(86,139,255,1)), color-stop(90%, rgba(226,38,255,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(5,197,255,1) 0%, rgba(86,139,255,1) 33%, rgba(226,38,255,1) 90%);
+  background: -o-linear-gradient(-45deg, rgba(5,197,255,1) 0%, rgba(86,139,255,1) 33%, rgba(226,38,255,1) 90%);
+  background: -ms-linear-gradient(-45deg, rgba(5,197,255,1) 0%, rgba(86,139,255,1) 33%, rgba(226,38,255,1) 90%);
+  background: linear-gradient(135deg, rgba(5,197,255,1) 0%, rgba(86,139,255,1) 33%, rgba(226,38,255,1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05c5ff', endColorstr='#e226ff', GradientType=1 );
+}
+
+.navigation-options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+.navigation-options li {
+  width: 50%;
+  margin: auto;
+}
+
+.navigation-options i {
+  font-size: 3em;
+  display: block;
+}
+
+.logout {
+  background: #E226FF;
+  text-align: center;
+}
+
+.logout h1 {
+  margin: 0;
+  padding: 0;
+}
