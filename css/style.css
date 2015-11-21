@@ -26,6 +26,14 @@ body {
   padding-left: .25em;
 }
 
+.heading-icon-container a {
+  color: white;
+}
+
+.heading-icon-container:hover a {
+  opacity: .5;
+}
+
 .heading-h1-container {
   margin: auto;
 }
@@ -68,11 +76,25 @@ body {
   padding: 2.75em 0;
 }
 
+.navigation-options li:hover {
+  cursor: pointer;
+  background-color: rgba(240,240,240,.5);
+}
 .navigation-options i {
   font-size: 2.25em;
   color: #E7E7E7;
   padding-bottom: .25em;
   display: block;
+}
+
+.navigation-options li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation-options li:hover i,
+.navigation-options li:hover a {
+  opacity: .75;
 }
 
 .logout {
@@ -86,6 +108,11 @@ body {
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
+}
+
+.logout:hover h1{
+  cursor: pointer;
+  opacity: .5;
 }
 
 /* border */
