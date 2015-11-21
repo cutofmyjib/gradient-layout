@@ -1,8 +1,12 @@
+/** {
+  border: 1px solid yellow;
+}*/
 body {
+  box-sizing: border-box;
   margin: 0 auto;
   max-width: 500px;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .heading-container {
@@ -11,6 +15,20 @@ body {
   background: #05C5FF;
   margin: 0;
   padding: 0;
+}
+
+.heading-icon-container {
+  font-size: 4.35em;
+  text-align: center;
+  padding-left: .25em;
+}
+
+.heading-h1-container {
+  flex-grow: 2;
+}
+
+.heading-h1 {
+  text-align: center;
 }
 
 .navigation-body {
@@ -29,6 +47,8 @@ body {
   margin: 0;
   padding: 2em;
 }
+
+
 
 .logout {
   background: #E226FF;
