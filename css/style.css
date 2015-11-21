@@ -29,3 +29,12 @@ body {
   padding: 2em;
 }
 
+.logout {
+  background: #E226FF;
+  text-align: center;
+}
+
+.logout h1 {
+  margin: 0;
+  padding: 0;
+}
