@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background: #05C5FF;
+  color: white;
+}
