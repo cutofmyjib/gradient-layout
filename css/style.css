@@ -2,11 +2,14 @@
   border: 1px solid yellow;
 }*/
 
-.background {
+body {
   margin: 0 auto;
   max-width: 500px;
   color: #E7E7E7;
   font-family: 'Raleway', sans-serif;
+}
+
+.background {
   background: rgba(5,197,255,1);
   background: -moz-linear-gradient(-45deg, rgba(5,197,255,1) 0%, rgba(86,139,255,1) 33%, rgba(226,38,255,1) 90%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(5,197,255,1)), color-stop(33%, rgba(86,139,255,1)), color-stop(90%, rgba(226,38,255,1)));
@@ -96,6 +99,7 @@
 }
 
 .account-option {
+  position: relative;
   text-align: center;
   padding: 1em;
 }
@@ -129,28 +133,59 @@
 /*********************
         HOME
 *********************/
-.background.home {
+.img-background {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background: url(../img/jellyfish.jpeg) no-repeat top left;
+  background-size: cover;
+}
+
+.background.overlay {
+  position: absolute;
+  opacity: .5;
+  width: 500px;
+  height: 500px;
+}
+
+.home {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.welcome-icon-container {
-  font-size: 3.5em;
+.home-body {
+  font-size: .55em;
+  padding: 4em 2em;
 }
 
-.account-option {
-  position: relative;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
+.home-icon-container {
+  font-size: 5em;
 }
 
-.account-option h1 {
+.user-img {
   margin: auto;
+  padding: 3em;
+  height: 4em;
+  width: 4em;
+  border: 3px solid white;
+  border-radius: 50%;
 }
 
-.home.icon-container {
+.arrow-container {
   position: absolute;
+  right: 1em;
+  top: .25em;
   font-size: 2em;
+}
+
+.home.account-option:hover i {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.arrow-icon-container i {
+  display: block;
 }
