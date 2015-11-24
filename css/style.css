@@ -125,8 +125,8 @@ body {
   border-right: 1px solid #E7E7E7;
 }
 
-.border-bottom {
-  border-bottom: 1px solid #E7E7E7;
+.border-top {
+  border-top: 1px solid #E7E7E7;
 }
 
 
@@ -134,7 +134,7 @@ body {
         HOME
 *********************/
 .img-background {
-  position: relative;
+  /*position: relative;*/
   margin: auto;
   width: 500px;
   height: 500px;
@@ -150,26 +150,34 @@ body {
 }
 
 .home {
-  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   text-align: center;
+  height: 500px;
 }
 
 .home-body {
+  position: relative;
   font-size: .55em;
   padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
 }
 
 .home-icon-container {
   font-size: 5em;
 }
 
+/*.user-img-div {
+  padding: 3em 0;
+}*/
+
 .user-img {
-  margin: auto;
-  padding: 3em;
-  height: 4em;
-  width: 4em;
+  height: 10em;
+  width: 10em;
   border: 3px solid white;
   border-radius: 50%;
 }
@@ -181,7 +189,11 @@ body {
   font-size: 2em;
 }
 
-.home.account-option:hover i {
+.home-options {
+  position: relative;
+}
+
+.home-options.account-option:hover i {
   cursor: pointer;
   opacity: .5;
 }
