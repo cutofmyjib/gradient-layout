@@ -20,7 +20,7 @@
       </header>
       <section class="signup-body">
         <div class="signup-options">
-          <div class="signup-option twitter">
+          <div class="signup-option twitter border-right">
             <i class="ion-social-twitter"></i>
             Connect with Twitter
           </div>
@@ -28,22 +28,32 @@
             <i class="ion-social-facebook"></i>
             Connect with Facebook
           </div>
-          <div class="signup-connect email">
+          <div class="signup-option email border-top">
             <i class="ion-ios-email-outline"></i> or use your email address
           </div>
         </div>
-        <form action="" class="signup-form">
-          <label>NAME</label>
-          <input type="text" name="name">
-          <label>EMAIL</label>
-          <input type="text" name="email">
-          <label>PASSWORD</label>
-          <input type="text" name="password">
-          <label>GENDER</label>
-          <input type="radio" name="sex" value="male"> Male
-          <input type="radio" name="sex" value="female"> Female
-          <label>BIRTHDAY</label>
-          <input type="text" name="birthday">
+        <form action="" class="signup-form border-top">
+          <p>
+            <label>NAME</label>
+            <input type="text" placeholder="Diana Lastname" name="name">
+          </p>
+          <p>
+            <label>EMAIL</label>
+            <input type="text" placeholder="myemail@email.com" name="email">
+          </p>
+          <p>
+            <label>PASSWORD</label>
+            <input type="password" placeholder="6 alpha-numeric characters" name="password">
+          </p>
+          <p>
+            <label>GENDER</label>
+            <input type="radio" name="gender" value="male" class="radio-button"> Male
+            <input type="radio" name="gender" value="female" class="radio-button"> Female
+          </p>
+          <p>
+            <label>BIRTHDAY</label>
+            <input type="text" placeholder="Month Day Year" name="birthday">
+          </p>
           <input type="submit" value="CONTINUE" class="signup account-option">
         </form>
       </section>
