@@ -7,6 +7,7 @@ body {
   max-width: 500px;
   color: #E7E7E7;
   font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
 }
 
 .background {
@@ -41,6 +42,13 @@ body {
 .icon-container a {
   color: white;
 }
+
+.account-options-container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
 
 .icon-container:hover a {
   opacity: .5;
@@ -145,6 +153,9 @@ body {
   margin: auto;
   width: 500px;
   height: 730px;
+}
+
+.home-bg {
   background: url(../img/jellyfish.jpeg) no-repeat top left;
   background-size: cover;
 }
@@ -322,4 +333,47 @@ input {
   width: 100%;
   background: #E226FF;
   left: 0;
+}
+
+
+/*********************
+        INTRO TASK
+*********************/
+.intro-task-bg {
+  background: url(../img/silhouette.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.task-intro {
+  background: none;
+  font-size: 5em;
+}
+
+.task-intro i {
+  margin: auto;
+}
+
+.task-intro-body {
+  position: relative;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-intro-body i {
+  display: block;
+  padding-top: 75px;
+  font-size: 18em;
+}
+
+.task-intro-body p {
+  margin: auto;
+  width: 60%;
+  line-height: 200%;
+}
+
+.task-intro-option {
+  border-top: 1px solid white;
+  width: 50%;
 }
