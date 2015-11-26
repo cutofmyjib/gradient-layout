@@ -218,6 +218,11 @@ body {
   opacity: .5;
 }
 
+.home-options.account-option a {
+  text-decoration: none;
+  color: white;
+}
+
 .arrow-icon-container i {
   display: block;
 }
@@ -296,12 +301,15 @@ input {
 
 .radio-button {
   width: 30px;
-  padding: 0 55px;
+  padding: 0 5px;
   margin: 0;
 }
 
+.radio-gender {
+  padding: 0 50px 0 0;
+}
+
 .signup.account-option {
-  /*display: none;*/
   position: absolute;
   bottom: 0;
   border: none;
