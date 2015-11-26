@@ -116,14 +116,14 @@ body {
   background: #E226FF;
 }
 
-.account-option h1 {
+.account-option span {
   font-size: 1em;
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
 }
 
-.account-option:hover h1{
+.account-option:hover span {
   cursor: pointer;
   opacity: .5;
 }
