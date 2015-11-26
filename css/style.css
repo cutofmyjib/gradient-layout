@@ -218,6 +218,11 @@ body {
   opacity: .5;
 }
 
+.home-options.account-option a {
+  text-decoration: none;
+  color: white;
+}
+
 .arrow-icon-container i {
   display: block;
 }
