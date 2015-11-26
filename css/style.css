@@ -204,13 +204,19 @@ body {
 
 .arrow-container {
   position: absolute;
+  display: block;
   right: 1em;
   top: .06em;
+}
+
+.arrow-container i {
   font-size: 2em;
 }
 
+
 .home-options {
   position: relative;
+  display: block;
 }
 
 .home-options.account-option:hover i {
