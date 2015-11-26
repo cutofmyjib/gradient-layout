@@ -434,21 +434,25 @@ input {
 }
 
 .overview-detail {
-  display: block;
-  /*border: 1px solid green;*/
-  /*line-height: 50%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   text-align: center;
   width: 50%;
+  margin: 0;
 }
 
 .overview-detail > span:nth-child(1) {
-  font-size: 4em;
-  display: block;
-  padding-top: 24px;
+  font-size: 4.25em;
 }
 
 .overview-detail > span:nth-child(2) {
   line-height: 50px;
+}
+
+.calendar-tasks {
+  border-top: 1px solid white;
 }
 
 .options {
