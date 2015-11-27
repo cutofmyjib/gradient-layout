@@ -504,6 +504,18 @@ input {
   opacity: .75;
 }
 
+.hangouts-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hangouts-div a {
+  display: block;
+  padding: 12px 6px 0 0;
+}
+
 .calendar-options-background {
   position: absolute;
   bottom: 0;
