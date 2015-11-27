@@ -409,7 +409,8 @@ input {
 }
 
 .calendar-body {
-  height: 600px;
+  position: relative;
+  height: 665px;
   box-sizing: border-box;
 }
 
@@ -418,9 +419,10 @@ input {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 80px;
 }
 
-.calendar-date i {
+.calendar-overview-specifier i {
   font-size: 1.5em;
 }
 
@@ -453,9 +455,94 @@ input {
 
 .calendar-tasks {
   border-top: 1px solid white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 305px;
+}
+
+.calendar-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.calendar-tasks .calendar-task:not(:first-child) {
+  border-top: 1px solid white;
+}
+
+.task-subtitle {
+  display: block;
+  font-size: .85em;
+  padding-top: 6px;
+  opacity: .5;
+}
+
+.task-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.25em;
+}
+
+.time-big {
+  display: inline-block;
+  font-size: 2.5em;
+}
+
+.time-small {
+  display: inline;
+}
+
+.time-small span:nth-child(2) {
+  display: block;
+  font-size: .75em;
+  opacity: .75;
+}
+
+.calendar-options-background {
+  position: absolute;
+  bottom: 0;
+  background: rgba(175,89,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(175,89,255,1)), color-stop(100%, rgba(245,107,255,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: linear-gradient(135deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af59ff', endColorstr='#f56bff', GradientType=1 );
+  opacity: .75;
+  height: 65px;
+  width: 100%;
 }
 
 .options {
-  border: 1px solid red;
+  position: absolute;
+  bottom: 0;
   height: 65px;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.options i {
+  display: block;
+  font-size: 2.5em;
+  padding: 0 24px;
+  line-height: 65px;
+  opacity: .85;
+}
+
+.options i:hover {
+  color: white;
+}
+
+.options i:nth-child(2) {
+  font-size: 3.5em;
 }
