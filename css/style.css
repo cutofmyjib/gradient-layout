@@ -385,3 +385,176 @@ input {
   border-top: 1px solid white;
   width: 50%;
 }
+
+
+/*********************
+        CAL-DAY
+*********************/
+.calendar-heading {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.user-icon {
+  top: -12px;
+  right: 12px;
+}
+
+.icon-option {
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+}
+
+.calendar-body {
+  position: relative;
+  height: 665px;
+  box-sizing: border-box;
+}
+
+.calendar-overview-specifier {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.calendar-overview-specifier i {
+  font-size: 1.5em;
+}
+
+.calendar-overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  border-top: 1px solid white;
+  height: 150px;
+}
+
+.overview-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 0;
+}
+
+.overview-detail > span:nth-child(1) {
+  font-size: 4.25em;
+}
+
+.overview-detail > span:nth-child(2) {
+  line-height: 50px;
+}
+
+.calendar-tasks {
+  border-top: 1px solid white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 305px;
+}
+
+.calendar-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.calendar-tasks .calendar-task:not(:first-child) {
+  border-top: 1px solid white;
+}
+
+.task-subtitle {
+  display: block;
+  font-size: .85em;
+  padding-top: 6px;
+  opacity: .5;
+}
+
+.task-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.25em;
+}
+
+.time-big {
+  display: inline-block;
+  font-size: 2.5em;
+}
+
+.time-small {
+  display: inline;
+}
+
+.time-small span:nth-child(2) {
+  display: block;
+  font-size: .75em;
+  opacity: .75;
+}
+
+.hangouts-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hangouts-div a {
+  display: block;
+  padding: 12px 6px 0 0;
+}
+
+.calendar-options-background {
+  position: absolute;
+  bottom: 0;
+  background: rgba(175,89,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(175,89,255,1)), color-stop(100%, rgba(245,107,255,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  background: linear-gradient(135deg, rgba(175,89,255,1) 0%, rgba(245,107,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af59ff', endColorstr='#f56bff', GradientType=1 );
+  opacity: .75;
+  height: 65px;
+  width: 100%;
+}
+
+.options {
+  position: absolute;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.options i {
+  display: block;
+  font-size: 2.5em;
+  padding: 0 24px;
+  line-height: 65px;
+  opacity: .85;
+}
+
+.options i:hover {
+  color: white;
+}
+
+.options i:nth-child(2) {
+  font-size: 3.5em;
+}
