@@ -24,19 +24,25 @@
         <span class="calendar-heading">THURSDAY</span>
       </header>
       <section class="calendar-body">
-        <div>
+        <div class="calendar-overview-specifier">
           <i class="ion-ios-arrow-left"></i>
           <h1>March 12</h1>
           <i class="ion-ios-arrow-right"></i>
         </div>
-        <div>
-          <div><span>5</span>TASKS DUE</div>
-          <div><i class=ion-ios-sunny-outline></i><span>72°</span>SAN FRANCISCO</div>
+        <div class="calendar-overview">
+          <span class="overview-detail border-right">
+            <span>5</span>
+            <span>TASKS DUE</span>
+          </span>
+          <span class="overview-detail">
+            <span><i class="ion-ios-sunny-outline"></i>72°</span>
+            <span>SAN FRANCISCO</span>
+          </span>
         </div>
         <div class="calendar-tasks">
           <div class="calendar-task">
             <span class="task-title">
-              Design explorations <span class="subtitle">Web App</span>
+              Design explorations <span class="task-subtitle">Web App</span>
             </span>
             <div class="task-time">
               <span class="time-big">8</span>
@@ -58,7 +64,12 @@
           </div>
           <div class="calendar-task">
             <span class="task-title">
-              Weekly Stand Up <span class="subtitle">Hangouts</span>
+              Weekly Stand Up <span class="task-subtitle">Hangouts</span>
+              <div class="icon-container user-icon">
+                <a href="#">
+                  <img src="img/user.png" class="hangouts user-img"></span>
+                </a>
+              </div>
             </span>
             <div class="task-time">
               <span class="time-big">2</span>
@@ -68,11 +79,13 @@
             </div>
         </div>
       </section>
-      <section class="account-options-container">
-        <i class="ion-ios-calendar-outline"></i>
-        <i class="ion-ios-plus"></i>
-        <i class="ion-stats-bars"></i>
-      </section>
+      <div class="calendar-options-background">
+      </div>
+      <section class="options account-options-container" >
+          <i class="ion-ios-calendar-outline"></i>
+          <i class="ion-ios-plus"></i>
+          <i class="ion-stats-bars"></i>
+        </section>
     </div>
   </body>
 </html>
