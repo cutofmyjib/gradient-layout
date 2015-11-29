@@ -37,10 +37,6 @@ body {
   border-top: 1px solid #E7E7E7;
 }
 
-
-/*********************
-        NAV
-*********************/
 .heading-container {
   position: relative;
   display: flex;
@@ -59,31 +55,27 @@ body {
   padding-left: .25em;
 }
 
-.icon-container a {
-  color: white;
-}
-
-.account-options-container {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-}
-
-
 .icon-container:hover a {
   opacity: .5;
 }
 
-.heading-h1-container {
-  margin: auto;
+.icon-container a {
+  color: white;
 }
 
-.heading-h1 {
-  font-size: 1em;
-  letter-spacing: 1px;
+.menu-heading {
+  display: block;
+  margin: auto;
   text-align: center;
-  margin: 0;
-  padding: 0;
+}
+
+/*********************
+        NAV
+*********************/
+.account-options-container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
 .navigation-options {
@@ -138,9 +130,6 @@ body {
   text-align: center;
   line-height: 65px;
   height: 65px;
-}
-
-.nav.account-option {
   background: #E226FF;
 }
 
@@ -217,8 +206,10 @@ body {
 
 }
 
-.home.account-options-container {
-  flex-direction: column;
+.home-options {
+  background: none;
+  position: relative;
+  display: block;
 }
 
 .arrow-container {
@@ -226,16 +217,6 @@ body {
   display: block;
   right: 1em;
   top: .06em;
-}
-
-.arrow-container i {
-  font-size: 2em;
-}
-
-
-.home-options {
-  position: relative;
-  display: block;
 }
 
 .home-options.account-option:hover i {
@@ -246,6 +227,10 @@ body {
 .home-options.account-option a {
   text-decoration: none;
   color: white;
+}
+
+.arrow-container i {
+  font-size: 2em;
 }
 
 .arrow-icon-container i {
@@ -260,11 +245,9 @@ body {
   height: 665px;
   position: relative;
   box-sizing: border-box;
-  /*border: 1px solid black;*/
 }
 .signup-options {
   display: flex;
-  /*flex-direction: row;*/
   flex-flow: row wrap;
 }
 
@@ -390,12 +373,6 @@ input {
 /*********************
         CAL-DAY
 *********************/
-.calendar-heading {
-  display: block;
-  margin: auto;
-  text-align: center;
-}
-
 .user-icon {
   top: -12px;
   right: 12px;
