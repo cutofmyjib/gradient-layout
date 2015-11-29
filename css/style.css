@@ -564,15 +564,12 @@ input {
         GROUPS
 *********************/
 .search-icon {
-  top: -12px;
+  top: -15px;
   right: 12px;
-  /*height: 40px;
-  width: 40px;
-  border: 1px solid white;*/
 }
 
 .search-icon i {
-  font-size: .65em;
+  font-size: .55em;
 }
 
 .groups.background.overlay {
@@ -587,11 +584,35 @@ input {
   opacity: .85;
 }
 
+.groups-music-bg:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.groups-music-bg:hover .group-total-items {
+  cursor: pointer;
+  color: gray;
+  background: white;
+  opacity: .5;
+}
+
 .groups-architecture-bg {
   background: url(../img/architecture.jpg) no-repeat top left;
   background-size: cover;
   height: 221.67px;
   opacity: .85;
+}
+
+.groups-architecture-bg:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.groups-architecture-bg:hover .group-total-items {
+  cursor: pointer;
+  color: gray;
+  background: white;
+  opacity: .5;
 }
 
 .groups-travel-bg {
@@ -601,11 +622,38 @@ input {
   opacity: .85;
 }
 
+.groups-travel-bg:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.groups-travel-bg:hover .group-total-items {
+  cursor: pointer;
+  color: gray;
+  background: white;
+  opacity: .5;
+}
+
 .group-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 221.67px;
 }
 
 .group-name {
   padding: 0;
   margin: 0;
+}
+
+.group-total-items {
+  margin-top: 12px;
+  display: block;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  line-height: 40px;
+  border: 1px solid white;
 }
