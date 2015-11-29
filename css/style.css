@@ -558,3 +558,54 @@ input {
 .options i:nth-child(2) {
   font-size: 3.5em;
 }
+
+
+/*********************
+        GROUPS
+*********************/
+.search-icon {
+  top: -12px;
+  right: 12px;
+  /*height: 40px;
+  width: 40px;
+  border: 1px solid white;*/
+}
+
+.search-icon i {
+  font-size: .65em;
+}
+
+.groups.background.overlay {
+  height: 221.67px;
+  opacity: .7;
+}
+
+.groups-music-bg {
+  background: url(../img/music.jpg) no-repeat center;
+  background-size: cover;
+  height: 221.67px;
+  opacity: .85;
+}
+
+.groups-architecture-bg {
+  background: url(../img/architecture.jpg) no-repeat top left;
+  background-size: cover;
+  height: 221.67px;
+  opacity: .85;
+}
+
+.groups-travel-bg {
+  background: url(../img/travel.jpg) no-repeat center;
+  background-size: cover;
+  height: 221.67px;
+  opacity: .85;
+}
+
+.group-container {
+  position: relative;
+}
+
+.group-name {
+  padding: 0;
+  margin: 0;
+}
