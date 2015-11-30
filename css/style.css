@@ -484,7 +484,7 @@ input {
 .hangouts-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   align-items: center;
 }
 
@@ -616,8 +616,8 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: 221.67px;
+  align-items: center;
 }
 
 .group-name {
@@ -633,4 +633,49 @@ input {
   width: 100px;
   line-height: 40px;
   border: 1px solid white;
+}
+
+/*********************
+        TIMELINE
+*********************/
+
+.timeline-overview-specifier {
+  text-align: center;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline-overview-specifier h1 {
+  margin: 0;
+}
+
+.subtext {
+  padding-top: 6px;
+  opacity: .5;
+}
+
+.timeline-overview {
+  padding: 30px;
+}
+
+.timeline-tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 540px;
+}
+
+.timeline-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*border: 1px solid white;*/
+}
+
+.timeline-task-title {
+  width: 50%;
+  /*height: 33%;*/
+  border-right: 1px solid white;
 }
