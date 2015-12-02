@@ -201,7 +201,7 @@ body {
 .user-img {
   height: 115px;
   width: 115px;
-  border: 8px solid rgba(0, 0, 0, 0.2);;
+  border: 8px solid rgba(0, 0, 0, 0.2);
   border-radius: 50%;
 
 }
@@ -641,44 +641,59 @@ input {
 
 .timeline-overview-specifier {
   text-align: center;
-  height: 125px;
+  height: 65px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .timeline-overview-specifier h1 {
   margin: 0;
+  padding: 0;
 }
 
-.subtext {
-  padding-top: 6px;
+.timeline-date {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
   opacity: .5;
 }
 
+.timeline-date i {
+  font-size: 1.75em;
+}
+
 .timeline-overview {
-  padding: 30px;
+  padding: 0 30px;
+  height: 600px;
+  overflow: scroll;
 }
 
 .timeline-tasks {
   display: flex;
   flex-direction: column;
-  /*justify-content: space-around;*/
-  height: 540px;
-  /*border: 1px solid white;*/
+  padding: 24px 0;
+
 }
 
 .timeline-task {
-  height: 20%;
+  height: 115px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /*border: 1px solid white;*/
 }
 
 .timeline-task-title {
   width: 50%;
-  height: 33%;
-  border-right: 1px solid white;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline.task-title {
+  height: 100%;
 }
