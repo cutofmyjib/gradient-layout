@@ -69,6 +69,18 @@ body {
   text-align: center;
 }
 
+.menu-icon {
+  top: -20px;
+  right: 12px;
+}
+
+.menu-icon i {
+  font-size: .55em;
+}
+
+.menu-icon i:nth-child(2) {
+  padding-left: 30px;
+}
 /*********************
         NAV
 *********************/
@@ -396,6 +408,7 @@ input {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  font-size: .75em;
   height: 80px;
 }
 
@@ -540,15 +553,6 @@ input {
 /*********************
         GROUPS
 *********************/
-.search-icon {
-  top: -15px;
-  right: 12px;
-}
-
-.search-icon i {
-  font-size: .55em;
-}
-
 .groups.background.overlay {
   height: 221.67px;
   opacity: .7;
@@ -635,9 +639,23 @@ input {
   border: 1px solid white;
 }
 
+
 /*********************
         TIMELINE
 *********************/
+.overview-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.overview-arrows i {
+
+  /*display: block;*/
+  font-size: .75em;
+  /*color: black;*/
+  padding: 0 24px;
+}
 
 .timeline-overview-specifier {
   text-align: center;
@@ -696,4 +714,13 @@ input {
 
 .timeline.task-title {
   height: 100%;
+}
+
+
+
+/*********************
+        TIMELINE
+*********************/
+.overview-graph {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
