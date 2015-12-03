@@ -307,19 +307,21 @@ body {
 .signup-form {
   display: flex;
   flex-direction: column;
-  height: 375px;
   margin: 0;
   padding: 30px;
 }
 
 .signup-form label {
   width: 30%;
+  opacity: .5;
+  font-size: .75em;
 }
 
 .signup-form p {
   margin: 0;
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 20px 0;
 }
 
@@ -331,6 +333,19 @@ input {
   border: none;
   background: none;
   width: 70%;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+input::-moz-placeholder {
+  color: white;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+  color: white;
+}
+input:-ms-input-placeholder {
+  color: white;
 }
 
 .radio-button {
@@ -783,3 +798,24 @@ input {
   transform: rotate(90deg);
 }
 
+.profile-settings-heading {
+  position: relative;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.profile-settings-heading span {
+  padding: 0 30px;
+  line-height: 55px;
+}
+
+.profile-settings-heading > .arrow-container {
+  right: 0;
+}
+
+.profile-settings {
+  padding: 0 30px;
+}
