@@ -81,6 +81,8 @@ body {
 .menu-icon i:nth-child(2) {
   padding-left: 30px;
 }
+
+
 /*********************
         NAV
 *********************/
@@ -115,6 +117,7 @@ body {
   cursor: pointer;
   background-color: rgba(240,240,240,.5);
 }
+
 .navigation-options i {
   vertical-align: middle;
   font-size: 35px;
@@ -497,7 +500,6 @@ input {
 .hangouts-div {
   display: flex;
   flex-direction: row;
-  /*justify-content: space-around;*/
   align-items: center;
 }
 
@@ -643,20 +645,6 @@ input {
 /*********************
         TIMELINE
 *********************/
-.overview-arrows {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.overview-arrows i {
-
-  /*display: block;*/
-  font-size: .75em;
-  /*color: black;*/
-  padding: 0 24px;
-}
-
 .timeline-overview-specifier {
   text-align: center;
   height: 65px;
@@ -715,7 +703,6 @@ input {
 .timeline.task-title {
   height: 100%;
 }
-
 
 
 /*********************
