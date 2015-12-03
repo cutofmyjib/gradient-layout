@@ -708,6 +708,16 @@ input {
 /*********************
         TIMELINE
 *********************/
+.calendar-overview-specifier a {
+  color: white;
+  text-decoration: none;
+}
+
+.calendar-overview-specifier a:hover {
+  padding-bottom: 6px;
+  border-bottom: 1px solid white;
+}
+
 .overview-graph {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
