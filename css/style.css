@@ -536,10 +536,15 @@ input:-ms-input-placeholder {
 .hangouts-div {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding-top: 12px;
 }
+
+.subdiv {
+  width: 65%;
+}
+
 
 .calendar-options-background {
   position: absolute;
