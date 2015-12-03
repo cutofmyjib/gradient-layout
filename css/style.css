@@ -30,11 +30,11 @@ body {
 }
 
 .border-right {
-  border-right: 1px solid #E7E7E7;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .border-top {
-  border-top: 1px solid #E7E7E7;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .heading-container {
@@ -313,7 +313,7 @@ body {
 }
 
 .signup-form p:not(:first-child) {
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 input {
@@ -380,7 +380,8 @@ input {
 }
 
 .task-intro-option {
-  border-top: 1px solid white;
+  background: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
   width: 50%;
 }
 
@@ -424,7 +425,7 @@ input {
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
   height: 150px;
 }
 
@@ -447,7 +448,7 @@ input {
 }
 
 .calendar-tasks {
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -465,7 +466,7 @@ input {
 }
 
 .calendar-tasks .calendar-task:not(:first-child) {
-  border-top: 1px solid white;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .task-subtitle {
@@ -715,7 +716,7 @@ input {
 
 .calendar-overview-specifier a:hover {
   padding-bottom: 6px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .overview-graph {
