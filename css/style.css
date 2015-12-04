@@ -829,3 +829,59 @@ input:-ms-input-placeholder {
 .profile-settings {
   padding: 0 30px;
 }
+
+
+/*********************
+        LISTS
+*********************/
+@font-face {
+    font-family: Ionicons;
+    src: url('../css/ionicons.ttf');
+}
+
+.checklist {
+
+}
+
+
+.checklist div {
+  border: 1px solid white;
+  padding: 0 30px;
+}
+
+.checkbox-custom {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-custom, .checkbox-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before {
+  content: "\f3fd";
+  font-family: 'Ionicons';
+  font-size: 3em;
+  opacity: .5;
+  display: inline-block;
+  vertical-align: middle;
+  /*width: 20px;
+  height: 20px;*/
+  /* padding: 2px; */
+  margin-right: 10px;
+  text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f3fd";
+    font-family: 'Ionicons';
+    color: white;
+    opacity: 1;
+}
