@@ -194,7 +194,7 @@ body {
 }
 
 .home-bg {
-  background: url(../public/img/jellyfish.jpeg) no-repeat top left;
+  background: url(../img/jellyfish.jpeg) no-repeat top left;
   background-size: cover;
 }
 
@@ -391,7 +391,7 @@ input:-ms-input-placeholder {
         INTRO TASK
 *********************/
 .intro-task-bg {
-  background: url(../public/img/silhouette.jpeg) no-repeat center;
+  background: url(../img/silhouette.jpeg) no-repeat center;
   background-size: cover;
 }
 
@@ -607,7 +607,7 @@ input:-ms-input-placeholder {
 }
 
 .groups-music-bg {
-  background: url(../public/img/music.jpg) no-repeat center;
+  background: url(../img/music.jpg) no-repeat center;
   background-size: cover;
   height: 221.67px;
   opacity: .85;
@@ -626,7 +626,7 @@ input:-ms-input-placeholder {
 }
 
 .groups-architecture-bg {
-  background: url(../public/img/architecture.jpg) no-repeat top left;
+  background: url(../img/architecture.jpg) no-repeat top left;
   background-size: cover;
   height: 221.67px;
   opacity: .85;
@@ -645,7 +645,7 @@ input:-ms-input-placeholder {
 }
 
 .groups-travel-bg {
-  background: url(../public/img/travel.jpg) no-repeat center;
+  background: url(../img/travel.jpg) no-repeat center;
   background-size: cover;
   height: 221.67px;
   opacity: .85;
@@ -856,7 +856,7 @@ input:-ms-input-placeholder {
 *********************/
 @font-face {
     font-family: Ionicons;
-    src: url('../public/css/ionicons.ttf');
+    src: url('../css/ionicons.ttf');
 }
 
 .list-item {
